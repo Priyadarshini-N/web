@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+window.history.forward(); 
+function noBack() { 
+    window.history.forward(); 
+}
+function fn1(x)
+{
+	alert(x.files[0].size);
+}
+</script>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>Booking Id</th>
+<th>User Id</th>
+<th>User Name</th>
+<th>Booked Date</th>
+</tr>
+
+<tr>
+<td>55</td>
+<td>1</td>
+<td>Abirami</td>
+<td>2020-11-03 </td>
+
+</tr>
+
+<tr>
+<td>56</td>
+<td>5</td>
+<td>daffney</td>
+<td>2020-11-03 </td>
+
+</tr>
+
+<tr>
+<td>57</td>
+<td>1</td>
+<td>Abirami</td>
+<td>2020-10-01 </td>
+
+</tr>
+
+</table>
+</body>
+</html>
